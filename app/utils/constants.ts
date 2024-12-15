@@ -9,7 +9,7 @@ export const WORK_DIR = `/home/${WORK_DIR_NAME}`;
 export const MODIFICATIONS_TAG_NAME = 'bolt_file_modifications';
 export const MODEL_REGEX = /^\[Model: (.*?)\]\n\n/;
 export const PROVIDER_REGEX = /\[Provider: (.*?)\]\n\n/;
-export const DEFAULT_MODEL = 'claude-3-5-sonnet-latest';
+export const DEFAULT_MODEL = 'llama-3.1-8b-instant';
 export const PROMPT_COOKIE_KEY = 'cachedPrompt';
 
 const logger = createScopedLogger('Constants');
@@ -139,7 +139,7 @@ const PROVIDER_LIST: ProviderInfo[] = [
   {
     name: 'Groq',
     staticModels: [
-      { name: 'llama-3.1-8b-instant', label: 'Llama 3.1 8b (Groq)', provider: 'Groq', maxTokenAllowed: 8000 },
+      { name: 'llama-3.1-8b-instant', label: 'mamammaamama', provider: 'Groq', maxTokenAllowed: 17000 },
       { name: 'llama-3.2-11b-vision-preview', label: 'Llama 3.2 11b (Groq)', provider: 'Groq', maxTokenAllowed: 8000 },
       { name: 'llama-3.2-90b-vision-preview', label: 'Llama 3.2 90b (Groq)', provider: 'Groq', maxTokenAllowed: 8000 },      
       { name: 'llama-3.2-3b-preview', label: 'Llama 3.2 3b (Groq)', provider: 'Groq', maxTokenAllowed: 8000 },
